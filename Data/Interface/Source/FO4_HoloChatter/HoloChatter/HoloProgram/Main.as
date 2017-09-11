@@ -26,9 +26,6 @@ package
 		public var Message_tf:TextField;
 
 
-
-
-
 		// Initialize
 		//---------------------------------------------
 
@@ -43,26 +40,14 @@ package
 		{
 			DataValue = BGSCodeObj.getTextReplaceValue(DataToken);
 
-
 			OverlayLoader_mc.clipScale = 1.0;
 			OverlayLoader_mc.clipAlpha = 1;
 			OverlayLoader_mc.SWFLoad("Overlays/GasMask_Lens");
 			//OverlayLoader_mc.SWFLoad(DataValue);
 
-
-
-
 			// HUDMenu is the menu document class
-
 			Message_tf.text = String(MovieClip(root));
 		}
-
-
-
-
-
-
-
 
 
 	}
