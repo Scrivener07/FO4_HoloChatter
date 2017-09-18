@@ -1,6 +1,6 @@
 Scriptname Fallout:Wasteland:HoloProgram extends ObjectReference
 import Papyrus
-import Papyrus:Diagnostics:Log
+import Papyrus:Log
 
 
 UserLog Log

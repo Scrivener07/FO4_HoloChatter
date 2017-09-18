@@ -1,6 +1,6 @@
 Scriptname Fallout:Wasteland:Modification extends Papyrus:Project:Context
 import Papyrus:Compatibility:External
-import Papyrus:Diagnostics:Log
+import Papyrus:Log
 import Papyrus:VersionType
 
 
